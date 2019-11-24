@@ -1,0 +1,137 @@
+@media screen and (max-width: 767px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .navbar.responsive {
+        position: relative;
+        background-color: #000
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .header-wrapper .pull-left {
+        width: 50%;
+    }
+
+    .header-wrapper .pull-right {
+        width: 50%;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .closebtn {
+        right: 31%;
+        bottom: 4px;
+    }
+
+    .searchAddItemwrapper .searchBox,
+    .searchAddItemwrapper ul li {
+        width: 100%;
+    }
+
+    .searchAddItemwrapper ul li:last-child,
+    .searchAddItemwrapper ul li {
+        float: none;
+    }
+
+    .searchAddItemwrapper,
+    .tableitems-wrapper {
+        padding-right: 0;
+        padding-left: 0px;
+    }
+
+    .searchAddItemwrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 10px;
+    }
+
+    .searchAddItemwrapper ul {
+        padding-left: 0;
+    }
+    .searchAddItemwrapper ul li:first-child{
+        padding-bottom: 20px;
+    }
+    .tableitems-wrapper .table{
+        table-layout: inherit;
+    }
+    .sidenav{
+        padding-top: 0;
+        border-right: solid 1px #8c918b;
+        z-index: 99;
+    }
+    .header-wrapper .pull-left .logo{
+        width: 73%;
+        left: 10px;
+    }
+    .footer-wrapper .pull-left {
+        width: 100%;
+      
+    }
+    #mobileViewonly span{
+        padding-right: 25px;
+    }
+    #mobileViewonly ul{
+        margin-top: 45px;
+    }
+    .searchAddItemwrapper .searchBox{
+        background-image: none;
+    }
+    .form_wrapper{
+        width: 100%;
+        position: relative;
+        top: 0px;
+        padding: 10px;
+    }
+    .form_wrapper form{
+        max-height: 100%;
+    height: 100%;
+    }
+    body {overflow: auto;}
+    .footer-wrapper{
+  
+        position: relative;
+      
+    }
+    .form_wrapper .form-group{
+        width: 100%;
+    }
+    #fullpage_view{
+        height: auto;
+    }
+    .openbtn{
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 0px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
+}

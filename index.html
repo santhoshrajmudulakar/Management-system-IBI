@@ -1,0 +1,672 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Management System" />
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/nav.css" rel='stylesheet' type='text/css' />
+    <link href="css/mediaquery.css" rel='stylesheet' type='text/css' />
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
+
+</head>
+
+<body>
+
+    <!--begin header-->
+    <div class="header-wrapper">
+        <div class="">
+            <div class="pull-left">
+                <img src="images/Group 2996.svg" class="logo" />
+            </div>
+            <div class="pull-right">
+                <div class="navbar" id="mynavbar">
+                    <a href="" class="active">Home</a>
+                    <a href="">Option-1</a>
+                    <a href="">Option-2</a>
+                    <a href="">Option-3</a>
+                    <a href="">Option-4</a>
+                    <a class="icon" id="menuclick">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--over header-->
+
+
+    <div id="fullpage_view">
+
+        <a class="closebtn" id="closeNav"></a>
+        <a class="openbtn" id="openNav"></a>
+
+        <div id="mySidenav" class="sidenav">
+
+            <div class="search-wrapper">
+                <!-- <input type="text" class="form-control searchBox" placeholder="Search Projects.."> -->
+                <div id="myDropdown" class="dropdown-content">
+                    <input type="text" class="form-control searchBox" placeholder="Search Projects.." id="inputsearch"
+                        autocomplete="off">
+                    <div class="filtersearchlist">
+                        <a href="">About</a>
+                        <a href="">Base</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                        <a href="">Custom</a>
+                        <a href="">Support</a>
+                        <a href="">Tools</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="menu">
+                <li class="list"><a href="#">Project 1 </a>
+                    <ul class="items">
+                        <li><a href="#"> Project 1-1</a></li>
+                        <li><a href="#"> Project 1-2</a></li>
+                        <li><a href="#"> Project 1-3</a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 2</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 2-1 </a></li>
+                        <li> <a href="#"> Project 2-2 </a></li>
+                        <li> <a href="#"> Project 2-3 </a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 3</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 3-1 </a></li>
+                        <li> <a href="#"> Project 3-2 </a></li>
+                        <li> <a href="#"> Project 3-3 </a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 4</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 4-1 </a></li>
+                        <li> <a href="#"> Project 4-2 </a></li>
+                        <li> <a href="#"> Project 4-2 </a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 5</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 5-1 </a></li>
+                        <li> <a href="#"> Project 5-2 </a></li>
+                        <li> <a href="#"> Project 5-2 </a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 6</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 6-1 </a></li>
+                        <li> <a href="#"> Project 6-2 </a></li>
+                        <li> <a href="#"> Project 6-2 </a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 7</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 7-1 </a></li>
+                        <li> <a href="#"> Project 7-2 </a></li>
+                        <li> <a href="#"> Project 7-2 </a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 8</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 8-1 </a></li>
+                        <li> <a href="#"> Project 8-2 </a></li>
+                        <li> <a href="#"> Project 8-2 </a></li>
+                    </ul>
+                </li>
+                <li class="list"><a href="#">Project 9</a>
+                    <ul class="items">
+                        <li> <a href="#"> Project 9-1 </a></li>
+                        <li> <a href="#"> Project 9-2 </a></li>
+                        <li> <a href="#"> Project 9-2 </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!--begin body content-->
+        <div id="main_content">
+
+            <div class="tabsselection-wrapper">
+                <a href="" class="active">Page - 1</a>
+                <a href="">Page - 2</a>
+                <a href="">Page - 3</a>
+            </div>
+            <div class="searchAddItemwrapper">
+                <ul>
+                    <li>
+                        <input type="text" class="form-control searchBox" placeholder="Search Table data" id="inputsearch"
+                            autocomplete="off">
+                        <button type="submit" class="btnsearch2"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-primary btn-add"><img src="images/add (4).svg" />Add new
+                            item</button>
+                    </li>
+                </ul>
+            </div>
+
+            <!--begin form-->
+            <div class="form_wrapper">
+                <div class="heading">
+                    <div class="pull-left">
+                        <p>Add New</p>
+                    </div>
+                    <div class="pull-right">
+                        <p><img src="images/cancel icon.svg" id="hideform"></p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="id" class="control-label">Asset Model ID</label>
+                            <select class="form-control">
+                                <option>Select ID</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h5><b>Or</b></h5><br>
+                    <div class="row">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="assetcategory" class="control-label">Asset Category</label>
+                            <select class="form-control">
+                                <option>Select Asset Category</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="assettype" class="control-label">Asset Type</label>
+                            <select class="form-control">
+                                <option>Select Type</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row bottomborder">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="assetsubtype" class="control-label">Asset Sub Type</label>
+                            <select class="form-control">
+                                <option>Select Sub Type</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="vendor" class="control-label">Vendor</label>
+                            <select class="form-control">
+                                <option>Select Vendor</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="SerialNumber" class="control-label">Serial Number</label>
+                            <select class="form-control">
+                                <option>Serial Number</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="inventorytracking" class="control-label">Inventory Tracking</label>
+                            <select class="form-control">
+                                <option>Inventory Tracking</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="quantity" class="control-label">Quantity</label>
+                            <select class="form-control">
+                                <option>Quantity</option>
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class="row bottomborder">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Date of work Order" class="control-label">Date of work Order</label>
+                            <select class="form-control">
+                                <option>Date of work Order</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Cost per Unit" class="control-label">Cost per Unit</label>
+                            <select class="form-control">
+                                <option>Cost per Unit</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="specific-wrapper">
+                        <div class="row">
+                            <h4 class="heading-category">Specific Attributes</h4>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Attributes 1" class="control-label">Attributes 1</label>
+                                <select class="form-control">
+                                    <option>Select Option</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Attributes 2" class="control-label">Attributes 3</label>
+                                <select class="form-control">
+                                    <option>Select Option</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row bottomborder">
+
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Attributes 3" class="control-label">Attributes 3</label>
+                                <select class="form-control">
+                                    <option>Select Option</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Attributes 4" class="control-label">Attributes 4</label>
+                                <select class="form-control">
+                                    <option>Select Option</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="document-type-wrapper">
+                        <div class="row">
+                            <h4 class="heading-category">Documents</h4>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Document Type" class="control-label">Document Type</label>
+                                <select class="form-control">
+                                    <option>Select Document Type</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Upload document" class="control-label">Upload document</label>
+                                <div class="custom-file-input">
+                                    <input type="file" class="form-control">
+                                    <input type="text" class="form-control">
+                                    <input type="button" value="Browse" class="btn-browse">
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Document Type" class="control-label">Document Type</label>
+                                <select class="form-control">
+                                    <option>Select Document Type</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6 col-xs-12">
+                                <label for="Upload document" class="control-label">Upload document</label>
+                                <div class="custom-file-input">
+                                    <input type="file" class="form-control">
+                                    <input type="text" class="form-control">
+                                    <input type="button" value="Browse" class="btn-browse">
+                                    <!-- <span><img src="images/minus.svg"/></span> -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row common-wrapper">
+                        <div class="pull-left">
+                            <button type="button" class="btn btn-primary btn-addform"><img
+                                    src="images/add-circular-outlined-button.svg" /> Add</button>
+                        </div>
+                    </div>
+
+                    <div class="row common-wrapper footer-btns">
+                        <div class="pull-left">
+                            <button type="button" class="btn btn-primary btn-cancel" id="hideform">Cancel</button>
+                            <button type="button" class="btn btn-primary btn-submit">Submit</button>
+                        </div>
+
+                    </div>
+
+
+
+                </form>
+            </div>
+            <!--over-->
+            <div class="table-responsive tableitems-wrapper">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+
+                                <label class="customcheckbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+
+
+                            </th>
+                            <th>S.No</th>
+                            <th>Option ID</th>
+                            <th>Option Model ID</th>
+                            <th>Category<img src="images/filter-tool-black-shape.svg" /></th>
+                            <th>Option Type</th>
+                            <th>Quantity</th>
+                            <th>Assigned</th>
+                            <th>Not Assgined</th>
+                            <th>Brand<img src="images/filter-tool-black-shape.svg" /></th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+
+                                <label class="customcheckbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+
+                            </td>
+                            <td>1</td>
+                            <td>23456</td>
+                            <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                            <td>Option</td>
+                            <td>Option Name</td>
+                            <td>345</td>
+                            <td>34</td>
+                            <td>444</td>
+                            <td>Brand Name</td>
+                            <td>
+                                <div class="dropup">
+                                    <i class="fa fa-ellipsis-h dropbtn"></i>
+                                    <div class="dropup-content">
+                                            <i class="fa fa-edit"></i>
+                                            <i class="fa fa-trash-o"></i>    
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                                <label class="customcheckbox">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                </label>
+
+
+                            </td>
+                            <td>2</td>
+                            <td>23456</td>
+                            <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                            <td>Option</td>
+                            <td>Option Name</td>
+                            <td>345</td>
+                            <td>34</td>
+                            <td>444</td>
+                            <td>Brand Name</td>
+                            <td>
+                                <div class="dropup">
+                                    <i class="fa fa-ellipsis-h dropbtn"></i>
+                                    <div class="dropup-content">
+                                            <i class="fa fa-edit"></i>
+                                            <i class="fa fa-trash-o"></i>                                           
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                                <td>
+    
+                                    <label class="customcheckbox">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+    
+    
+                                </td>
+                                <td>2</td>
+                                <td>23456</td>
+                                <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                                <td>Option</td>
+                                <td>Option Name</td>
+                                <td>345</td>
+                                <td>34</td>
+                                <td>444</td>
+                                <td>Brand Name</td>
+                                <td>
+                                    <div class="dropup">
+                                        <i class="fa fa-ellipsis-h dropbtn"></i>
+                                        <div class="dropup-content">
+                                                <i class="fa fa-edit"></i>
+                                                <i class="fa fa-trash-o"></i>                                           
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                    <td>
+        
+                                        <label class="customcheckbox">
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+        
+        
+                                    </td>
+                                    <td>2</td>
+                                    <td>23456</td>
+                                    <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                                    <td>Option</td>
+                                    <td>Option Name</td>
+                                    <td>345</td>
+                                    <td>34</td>
+                                    <td>444</td>
+                                    <td>Brand Name</td>
+                                    <td>
+                                        <div class="dropup">
+                                            <i class="fa fa-ellipsis-h dropbtn"></i>
+                                            <div class="dropup-content">
+                                                    <i class="fa fa-edit"></i>
+                                                    <i class="fa fa-trash-o"></i>                                           
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                        <td>
+            
+                                            <label class="customcheckbox">
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </label>
+            
+            
+                                        </td>
+                                        <td>2</td>
+                                        <td>23456</td>
+                                        <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                                        <td>Option</td>
+                                        <td>Option Name</td>
+                                        <td>345</td>
+                                        <td>34</td>
+                                        <td>444</td>
+                                        <td>Brand Name</td>
+                                        <td>
+                                            <div class="dropup">
+                                                <i class="fa fa-ellipsis-h dropbtn"></i>
+                                                <div class="dropup-content">
+                                                        <i class="fa fa-edit"></i>
+                                                        <i class="fa fa-trash-o"></i>                                           
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                            <td>
+                
+                                                <label class="customcheckbox">
+                                                    <input type="checkbox">
+                                                    <span class="checkmark"></span>
+                                                </label>
+                
+                
+                                            </td>
+                                            <td>2</td>
+                                            <td>23456</td>
+                                            <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                                            <td>Option</td>
+                                            <td>Option Name</td>
+                                            <td>345</td>
+                                            <td>34</td>
+                                            <td>444</td>
+                                            <td>Brand Name</td>
+                                            <td>
+                                                <div class="dropup">
+                                                    <i class="fa fa-ellipsis-h dropbtn"></i>
+                                                    <div class="dropup-content">
+                                                            <i class="fa fa-edit"></i>
+                                                            <i class="fa fa-trash-o"></i>                                           
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                                <td>
+                    
+                                                    <label class="customcheckbox">
+                                                        <input type="checkbox">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                    
+                    
+                                                </td>
+                                                <td>2</td>
+                                                <td>23456</td>
+                                                <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                                                <td>Option</td>
+                                                <td>Option Name</td>
+                                                <td>345</td>
+                                                <td>34</td>
+                                                <td>444</td>
+                                                <td>Brand Name</td>
+                                                <td>
+                                                    <div class="dropup">
+                                                        <i class="fa fa-ellipsis-h dropbtn"></i>
+                                                        <div class="dropup-content">
+                                                                <i class="fa fa-edit"></i>
+                                                                <i class="fa fa-trash-o"></i>                                           
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                    <td>
+                        
+                                                        <label class="customcheckbox">
+                                                            <input type="checkbox">
+                                                            <span class="checkmark"></span>
+                                                        </label>
+                        
+                        
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>23456</td>
+                                                    <td data-toggle="tooltip" title="CGUIM873986JKSK8SJ">CGUIM873986JKSK8SJ</td>
+                                                    <td>Option</td>
+                                                    <td>Option Name</td>
+                                                    <td>345</td>
+                                                    <td>34</td>
+                                                    <td>444</td>
+                                                    <td>Brand Name</td>
+                                                    <td>
+                                                        <div class="dropup">
+                                                            <i class="fa fa-ellipsis-h dropbtn"></i>
+                                                            <div class="dropup-content">
+                                                                    <i class="fa fa-edit"></i>
+                                                                    <i class="fa fa-trash-o"></i>                                           
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                    </tbody>
+
+
+                </table>
+            </div>
+
+        </div>
+        <!--over body content-->
+
+    </div>
+
+    <div class="hidden-sm hidden-md hidden-lg">
+        <div class="pagination pagination-centered hidden-lg" id="mobileViewonly">
+            <span>Rows per page 12, <b>1-2 of 50</b></span>
+            <span>Show
+                <select>
+                    <option>1</option>
+                </select>
+            </span>
+            <ul>
+                <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                <li class="active"><a href="#">10</a></li>
+                <li class="disabled"><a href="#">...</a></li>
+                <li><a href="#">20</a></li>
+                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!--begin  footer-->
+    <div class="footer-wrapper">
+        <div class="">
+            <div class="pull-left">
+                <img src="images/logo.svg" class="logo" />
+            </div>
+            <div class="pull-right">
+                <div class="pagination pagination-centered hidden-xs">
+                    <span>Rows per page 12, <b>1-2 of 50</b></span>
+                    <span>Show
+                        <select>
+                            <option>1</option>
+                        </select>
+                    </span>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                        <li class="active"><a href="#">10</a></li>
+                        <li class="disabled"><a href="#">...</a></li>
+                        <li><a href="#">20</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--over-->
+
+
+
+
+</body>
+
+</html>
