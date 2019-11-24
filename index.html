@@ -141,9 +141,11 @@
         <div id="main_content">
 
             <div class="tabsselection-wrapper">
-                <a href="" class="active">Page - 1</a>
-                <a href="">Page - 2</a>
+                <a class="active" id="pageoneclick">Page - 1</a>
+                <a id="pagetwoclick">Page - 2</a>
                 <a href="">Page - 3</a>
+                <a href="">Page - 4</a>
+                <a href="">Page - 5</a>
             </div>
             <div class="searchAddItemwrapper">
                 <ul>
@@ -345,7 +347,7 @@
                 </form>
             </div>
             <!--over-->
-            <div class="table-responsive tableitems-wrapper">
+            <div class="table-responsive tableitems-wrapper" id="pageone">
                 <table class="table">
                     <thead>
                         <tr>
@@ -609,6 +611,10 @@
 
 
                 </table>
+            </div>
+
+            <div class="table-responsive tableitems-wrapper" id="pagetwo">
+                <h1 class="text-center">Page 2 Content</h1>
             </div>
 
         </div>

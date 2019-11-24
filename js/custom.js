@@ -118,6 +118,15 @@ $(document).ready(function () {
 
     
 
+    /* tabs change */
+    $('#pagetwo').hide();
+$('#pageoneclick').click(function () {
+        $('#pageone').show();$('#pagetwo').hide();
+    })
+    $('#pagetwoclick').click(function () {
+        $('#pagetwo').show();$('#pageone').hide();
+    })
+
 });
 
 
