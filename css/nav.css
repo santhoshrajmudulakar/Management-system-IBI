@@ -23,6 +23,7 @@
 .header-wrapper .pull-left .logo{
     position: relative;
     top: 13px;
+    padding-left: 15px;
 }
 .footer-wrapper .pull-left .logo{
     position: relative;
