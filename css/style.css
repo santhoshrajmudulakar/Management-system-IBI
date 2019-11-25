@@ -303,7 +303,7 @@ opacity: 1;
 
 .tableitems-wrapper th,
 .tableitems-wrapper td {
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .searchAddItemwrapper {
@@ -410,7 +410,11 @@ opacity: 1;
 .tableitems-wrapper .table tbody tr {
 	height: 52px;
 }
-
+.tableitems-wrapper .table tbody tr:hover{
+	border: solid 2px #1BAC9D;
+	background-color: #eee;
+	cursor: pointer;
+}
 
 
 
